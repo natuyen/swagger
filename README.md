@@ -1,5 +1,5 @@
 # swagger-ui
-### You can see spec.yml by accessing the following URLs.
+### You can see the specification of Garoon REST API by accessing the following URLs.
 
 - On the current default branch.
 
