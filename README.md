@@ -12,4 +12,4 @@ https://github.dev.cybozu.co.jp/pages/garoon/swagger/spec/?branch=F13.0
 
 # swagger-editor
 ### You can edit spec.yml.
-https://github.dev.cybozu.co.jp/pages/garoon/editor/
+https://github.dev.cybozu.co.jp/pages/garoon/swagger/editor/
