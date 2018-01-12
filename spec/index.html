@@ -71,10 +71,18 @@
 <script src="./swagger-ui-standalone-preset.js"> </script>
 <script>
 window.onload = function() {
+  // Returns the URL of spec.yml of the branch specified in the query parameter.
+  const get_spec_url = () => {
+    const DEFAULT_BRANCH = "F14.0";
+    let query = location.search.match(/branch=(.*?)($|&)/);
+    let branch = query && query[1] ? query[1] : DEFAULT_BRANCH;
+    return `${location.origin}/raw/garoon/garoon/${branch}/tools/rest_api/spec.yml`;
+  };
+  let url = get_spec_url();
   
   // Build a system
   const ui = SwaggerUIBundle({
-    url: "http://petstore.swagger.io/v2/swagger.json",
+    url: url,
     dom_id: '#swagger-ui',
     deepLinking: true,
     presets: [
