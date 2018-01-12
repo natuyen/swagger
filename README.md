@@ -1,11 +1,11 @@
 # swagger-ui
 ### You can see the specification of Garoon REST API by accessing the following URLs.
 
-- On the current default branch.
+- Latest version
 
 https://github.dev.cybozu.co.jp/pages/garoon/swagger/spec/
 
-- On the branch you want to see.
+- Specific version
 
 https://github.dev.cybozu.co.jp/pages/garoon/swagger/spec/?branch=F13.0
 
