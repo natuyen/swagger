@@ -1,5 +1,5 @@
 # swagger-ui
-### You can see the specification of Garoon REST API by accessing the following URLs.
+### You can see the specification of Garoon REST API by accessing such as following URLs.
 
 - Latest version
 
