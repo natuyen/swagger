@@ -79,10 +79,14 @@ window.onload = function() {
     return `${location.origin}/raw/garoon/garoon/${branch}/tools/rest_api/spec.yml`;
   };
   let url = get_spec_url();
-  
+
+  // Turn off swagger validator.
+  let validatorUrl = null;
+
   // Build a system
   const ui = SwaggerUIBundle({
     url: url,
+    validatorUrl: validatorUrl,
     dom_id: '#swagger-ui',
     deepLinking: true,
     presets: [
