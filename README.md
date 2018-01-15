@@ -1,15 +1,15 @@
 # swagger-ui
-### You can see spec.yml by accessing the following URLs.
+### You can see the specification of Garoon REST API by accessing such as following URLs.
 
-- On the current default branch.
+- Latest version
 
 https://github.dev.cybozu.co.jp/pages/garoon/swagger/spec/
 
-- On the branch you want to see.
+- Specific version
 
 https://github.dev.cybozu.co.jp/pages/garoon/swagger/spec/?branch=F13.0
 
 
 # swagger-editor
 ### You can edit spec.yml.
-https://github.dev.cybozu.co.jp/pages/garoon/editor/
+https://github.dev.cybozu.co.jp/pages/garoon/swagger/editor/
