@@ -1,0 +1,28 @@
+.swagger-ui {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.swagger-ui .opblock-body pre {
+  font-family: "Consolas","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+  font-weight: 300;
+}
+
+.swagger-ui .response-col_description__inner div.markdown p, .swagger-ui .response-col_description__inner div.renderedMarkdown p {
+  font-family: "Consolas","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+  font-weight: 300;
+}
+
+.swagger-ui .model {
+  font-family: "Consolas","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+  font-size: 14px;
+}
+
+.swagger-ui .model .markdown {
+  color: #3b4151;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.swagger-ui .model .markdown h1 {
+  font-size: 1.7em;
+}
