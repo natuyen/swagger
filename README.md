@@ -7,7 +7,7 @@ https://github.dev.cybozu.co.jp/pages/garoon/swagger/spec/
 
 - Specific version
 
-https://github.dev.cybozu.co.jp/pages/garoon/swagger/spec/?branch=F18.5
+https://github.dev.cybozu.co.jp/pages/garoon/swagger/spec/?branch=F18.8
 
 
 # swagger-editor
