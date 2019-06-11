@@ -78,7 +78,7 @@ window.onload = function() {
     const DEFAULT_BRANCH = "F19.8";
     let query = location.search.match(/branch=(.*?)($|&)/);
     let branch = query && query[1] ? query[1] : DEFAULT_BRANCH;
-    return `${location.origin}/raw/garoon/garoon/${branch}/tools/rest_api/spec.yml`;
+    return `${location.origin}/garoon/garoon/raw/${branch}/tools/rest_api/spec.yml`;
   };
   let url = get_spec_url();
 
