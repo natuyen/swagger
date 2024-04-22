@@ -73,12 +73,14 @@
 window.onload = function() {
   // Returns the URL of spec.yml of the branch specified in the query parameter.
   const get_spec_url = () => {
-    const DEFAULT_BRANCH = "F14.0";
+    const DEFAULT_BRANCH = "F14.0";v
+    console.log(location);
     let query = location.search.match(/branch=(.*?)($|&)/);
     let branch = query && query[1] ? query[1] : DEFAULT_BRANCH;
     return `${location.origin}/raw/garoon/garoon/${branch}/tools/rest_api/spec.yml`;
   };
   let url = get_spec_url();
+  console.log(url);
 
   // Turn off swagger validator.
   let validatorUrl = null;
